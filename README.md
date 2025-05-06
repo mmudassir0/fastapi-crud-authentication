@@ -75,9 +75,6 @@ uvicorn app.main:app --reload
 | `/user/`          | GET    | List all users         |
 | ...               | ...    | Add more as needed     |
 
-## 📂 Environment Variables
-
-You can store secrets like database URLs or secret keys using a `.env` file. Make sure to load them using `python-dotenv` or a similar package.
 
 ```
 DATABASE_URL=postgres:///./test.db
