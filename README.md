@@ -6,21 +6,14 @@ This project is a simple FastAPI application that provides CRUD functionality fo
 
 ```
 app/
-├── __init__.py
-├── auth.py              # Authentication logic (e.g., JWT)
-├── crud.py              # CRUD operations
-├── db.py                # Database configuration and session handling
-├── main.py              # FastAPI app initialization and router registration
-├── model.py             # SQLAlchemy or SQLModel models
-├── schema.py            # Pydantic schemas for request/response models
-├── routes/              # API route handlers
-│   ├── __init__.py
-│   ├── auth.py          # Auth routes (login/register)
-│   ├── hero.py          # Hero-related endpoints
-│   ├── item.py          # Item-related endpoints
-│   ├── team.py          # Team-related endpoints
-│   └── user.py          # User-related endpoints
-└── requirements.txt     # Python dependencies
+├── auth.py          # Auth logic (JWT)
+├── crud.py          # CRUD operations
+├── db.py            # Database setup
+├── main.py          # FastAPI app
+├── model.py         # Database models
+├── schema.py        # Pydantic schemas
+├── routes/          # API routes
+└── requirements.txt # Dependencies
 ```
 
 ## 🚀 Getting Started
